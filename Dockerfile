@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	file \
 	zip
  	iputils-ping
+  	ffuf
 
 RUN python3 -m pip install --upgrade pip --break-system-packages
 
